@@ -1,6 +1,6 @@
 {
   "name": "gitflow_restaurant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "proyecto de prueba para trabajar con la metodología de gitflow",
   "main": "main.js",
   "scripts": {
