@@ -18,5 +18,10 @@ export function procesarReserva(cliente: string, total: number): string {
         console.log(` Descuento aplicado de ${descuento.toFixed(2)} €`);
     }
     console.log(`Total a pagar: ${total} €`);
-    return "Reserva completada correctamente con descuento.";
+ console.log(`Procesando reserva para ${cliente}.`);
+ console.log(`Total a pagar: ${total} €`);
+ let puntosGanados = Math.floor(total / 10);
+ console.log(` El cliente ${cliente} ha ganado ${puntosGanados} puntos.`);
+
+ return "Reserva completada correctamente con puntos de recompensa y descuentos.";
 }
